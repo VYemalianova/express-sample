@@ -1,10 +1,11 @@
 import { ValidationError } from 'express-validator';
+import { IFieldError } from './response';
 
 export class HttpError extends Error {
   errorCode: number;
-  errors: string | ValidationError[];
+  errors: string | IFieldError[];
 
-  constructor(errors: string | ValidationError[], errorCode: number) {
+  constructor(errors: string | IFieldError[], errorCode: number) {
     super();
 
     this.errorCode = errorCode;
