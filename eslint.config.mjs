@@ -43,6 +43,8 @@ export default defineConfig([
     rules: {
       'prettier/prettier': 'error',
       'no-console': 'off',
+      'no-unused-vars': 'off',
+      '@typescript/no-unused-vars': 'warn',
     },
   },
 ]);
