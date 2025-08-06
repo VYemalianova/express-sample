@@ -10,6 +10,11 @@ It serves as a coding example for setting up a clean, modern Node.js backend wit
 - [Nodemon](https://nodemon.io/) – restarts the server on file changes
 - [ESLint](https://eslint.org/) – linting and code quality
 - [Prettier](https://prettier.io/) – consistent code formatting
+- [uuid](https://github.com/uuidjs/uuid) for generating unique IDs
+- [Day.js](https://day.js.org/) for lightweight date manipulation
+- [bcrypt](https://github.com/kelektiv/node.bcrypt.js) for hashing passwords
+- [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) for managing authentication tokens (JWT)
+- [express-validator](https://express-validator.github.io/) for validating request inputs in Express.js
 
 ## Getting Started
 
