@@ -1,0 +1,110 @@
+[
+  {
+    "signType": "aries",
+    "element": "Fire",
+    "planet": "Mars",
+    "traits": ["energetic", "bold", "impulsive", "natural", "leader"],
+    "fact": "Aries is the first sign of the zodiac, symbolizing new beginnings and action",
+    "start": { "month": 3, "day": 21 },
+    "end": { "month": 4, "day": 19 }
+  },
+  {
+    "signType": "taurus",
+    "element": "Earth",
+    "planet": "Venus",
+    "traits": ["loyal", "practical", "patient", "stubborn"],
+    "fact": "taurus loves comfort, food, and luxury—many are known to be true 'homebodies.'",
+    "start": { "month": 4, "day": 20 },
+    "end": { "month": 5, "day": 20 }
+  },
+  {
+    "signType": "gemini",
+    "element": "Air",
+    "planet": "Mercury",
+    "traits": ["talkative", "curious", "witty", "adaptable"],
+    "fact": "Geminis are known as the “twins” because of their dual nature—they can show very different sides.",
+    "start": { "month": 5, "day": 21 },
+    "end": { "month": 6, "day": 20 }
+  },
+  {
+    "signType": "cancer",
+    "element": "Water",
+    "planet": "Moon",
+    "traits": ["nurturing", "emotional", "protective", "intuitive"],
+    "fact": "Cancers are often called the “mothers” of the zodiac due to their deeply caring nature.",
+    "start": { "month": 6, "day": 21 },
+    "end": { "month": 7, "day": 22 }
+  },
+  {
+    "signType": "leo",
+    "element": "Fire",
+    "planet": "Sun",
+    "traits": ["confident", "creative", "charismatic", "sometimes", "dramatic"],
+    "fact": "Leos love being in the spotlight—many actors and performers are Leos.",
+    "start": { "month": 7, "day": 23 },
+    "end": { "month": 8, "day": 22 }
+  },
+  {
+    "signType": "virgo",
+    "element": "Earth",
+    "planet": "Mercury",
+    "traits": ["detail-oriented", "analytical", "modest", "perfectionist"],
+    "fact": "Virgos are often known for their organization and problem-solving skills.",
+    "start": { "month": 8, "day": 23 },
+    "end": { "month": 9, "day": 22 }
+  },
+  {
+    "signType": "libra",
+    "element": "Air",
+    "planet": "Venus",
+    "traits": ["diplomatic", "charming", "balanced", "indecisive"],
+    "fact": "Libras value harmony in all things—especially relationships and aesthetics.",
+    "start": { "month": 9, "day": 23 },
+    "end": { "month": 10, "day": 22 }
+  },
+  {
+    "signType": "scorpio",
+    "element": "Water",
+    "planet": "Pluto (and Mars)",
+    "traits": ["intense", "passionate", "secretive", "determined"],
+    "fact": "Scorpios are often considered the most mysterious and emotionally deep sign.",
+    "start": { "month": 10, "day": 23 },
+    "end": { "month": 11, "day": 21 }
+  },
+  {
+    "signType": "sagittarius",
+    "element": "Fire",
+    "planet": "Jupiter",
+    "traits": ["adventurous", "optimistic", "blunt", "philosophical"],
+    "fact": "Sagittarians crave freedom and are natural-born travelers and truth seekers.",
+    "start": { "month": 11, "day": 22 },
+    "end": { "month": 12, "day": 21 }
+  },
+  {
+    "signType": "capricorn",
+    "element": "Earth",
+    "planet": "Saturn",
+    "traits": ["disciplined", "responsible", "ambitious", "serious"],
+    "fact": "Capricorns are goal-oriented and often seen as “old souls” even when young.",
+    "start": { "month": 12, "day": 22 },
+    "end": { "month": 1, "day": 19 }
+  },
+  {
+    "signType": "aquarius",
+    "element": "Air",
+    "planet": "Uranus",
+    "traits": ["independent", "innovative", "quirky", "humanitarian"],
+    "fact": "Aquarians are known for being ahead of their time—many are drawn to technology and social causes.",
+    "start": { "month": 1, "day": 20 },
+    "end": { "month": 2, "day": 18 }
+  },
+  {
+    "signType": "pisces",
+    "element": "Water",
+    "planet": "Neptune",
+    "traits": ["compassionate", "dreamy", "artistic", "empathetic"],
+    "fact": "Pisces are often very creative and emotionally intuitive—many are artists or healers.",
+    "start": { "month": 2, "day": 19 },
+    "end": { "month": 3, "day": 20 }
+  }
+]

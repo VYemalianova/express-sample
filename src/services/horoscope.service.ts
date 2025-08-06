@@ -8,8 +8,8 @@ import { readJSONData } from '../helpers/file.helper';
 dayjs.extend(isoWeek);
 
 export const loadHoroscopeData = async (
-  startDate: string,
-  endDate: string
+  startDate?: string,
+  endDate?: string
 ): Promise<IHoroscope[]> => {
   const data = await readJSONData<IHoroscope[]>('horoscopes');
 

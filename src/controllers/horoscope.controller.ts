@@ -53,7 +53,7 @@ export const addHoroscope = async (
 ) => {
   try {
     const body = req.body as Partial<IHoroscope>;
-    const horoscopes = (await readJSONData<IHoroscope[]>('horoscopes')) as IHoroscope[];
+    const horoscopes = await loadHoroscopeData();
     const { startDate, endDate } = getHoroscopeDateRange(body.horoscopeType as HoroscopeType);
     const newHoroscope = {
       ...body,
@@ -83,7 +83,7 @@ export const updateHoroscope = async (
 ) => {
   try {
     const body = req.body as Partial<IHoroscope>;
-    const horoscopes = (await readJSONData<IHoroscope[]>('horoscopes')) as IHoroscope[];
+    const horoscopes = await loadHoroscopeData();
     const { startDate, endDate } = getHoroscopeDateRange(body.horoscopeType as HoroscopeType);
     const horoscopeToUpdate = {
       ...body,
@@ -125,6 +125,6 @@ export const deleteHoroscope = async (
 
     res.status(204).json({ success: true, message: 'Horoscope deleted successfully.', data: 1 });
   } catch {
-    next(new HttpError('Failed to update horoscope.', 500));
+    next(new HttpError('Failed to delete horoscope.', 500));
   }
 };
