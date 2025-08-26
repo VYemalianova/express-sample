@@ -7,6 +7,7 @@ import cors from 'cors';
 import { errorHandler } from './middlewares/error-handler';
 import authRoutes from './routes/auth.routes';
 import horoscopeRoutes from './routes/horoscope.routes';
+import signsRoutes from './routes/signs.routes';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -16,6 +17,7 @@ app.use(express.json());
 
 app.use('/auth', authRoutes);
 app.use('/horoscope', horoscopeRoutes);
+app.use('/signs', signsRoutes);
 
 app.use(errorHandler);
 
