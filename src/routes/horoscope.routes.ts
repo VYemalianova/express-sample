@@ -52,6 +52,6 @@ router.put(
   validationErrorsHandler,
   updateHoroscope
 );
-router.delete(':id', [validateId(param, 'id')], validationErrorsHandler, deleteHoroscope);
+router.delete('/:id', [validateId(param, 'id')], validationErrorsHandler, deleteHoroscope);
 
 export default router;

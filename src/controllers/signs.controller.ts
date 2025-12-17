@@ -26,3 +26,27 @@ export const getSigns = async (
     next(new HttpError('Internal server Error', 500));
   }
 };
+
+export const getSignByType = async (
+  req: Request,
+  res: Response<IResponse<ISign>>,
+  next: NextFunction
+) => {
+  try {
+    const { signType } = req.params;
+    const signsList = await loadSignsData();
+    const sign = signsList.find((sign) => sign.signType === signType);
+
+    if (!sign) {
+      next(new HttpError('Not found.', 404));
+    } else {
+      res.json({
+        success: true,
+        message: 'Sign retrieved successfully.',
+        data: sign,
+      });
+    }
+  } catch (error) {
+    next(new HttpError('Internal server Error', 500));
+  }
+};
