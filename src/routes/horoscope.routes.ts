@@ -17,6 +17,7 @@ import {
   validateId,
 } from '../helpers/validators.helper';
 import { validationErrorsHandler } from '../middlewares/validation-errors-handler';
+import { authenticateHoroscopeAccess } from '../middlewares/auth-horoscope-access';
 
 const router = Router();
 
@@ -38,6 +39,7 @@ router.get(
     isISODate(query, 'endDate').optional(),
   ],
   validationErrorsHandler,
+  authenticateHoroscopeAccess,
   getHoroscope
 );
 router.post(
