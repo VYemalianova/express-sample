@@ -5,7 +5,11 @@ import { HoroscopeType, IHoroscope } from '../models/horoscope.model';
 import { HttpError } from '../models/http-error';
 import { readJSONData, writeJSONData } from '../helpers/file.helper';
 import { IResponse } from '../models/response';
-import { getHoroscopeDateRange, loadHoroscopeData } from '../services/horoscope.service';
+import {
+  formatDate,
+  getHoroscopeDateRange,
+  loadHoroscopeData,
+} from '../services/horoscope.service';
 
 export const getHoroscope = async (
   req: Request,
@@ -13,34 +17,31 @@ export const getHoroscope = async (
   next: NextFunction
 ) => {
   try {
-    const { horoscopeType, signType } = req.query;
-    const horoscopeDateRange = getHoroscopeDateRange(horoscopeType as HoroscopeType);
+    const { horoscopeType, signType, startDate, endDate } = req.query;
 
-    const startDate = req.query.startDate
-      ? new Date(req.query.startDate as string).toISOString()
-      : horoscopeDateRange.startDate;
-    const endDate = req.query.endDate
-      ? new Date(req.query.endDate as string).toISOString()
-      : horoscopeDateRange.endDate;
+    const dateRange = getHoroscopeDateRange(horoscopeType as HoroscopeType);
+    const requestedStartDate = startDate ? formatDate(startDate as string) : dateRange.startDate;
+    const requestedEndDate = endDate ? formatDate(endDate as string) : dateRange.endDate;
 
-    const horoscopeList = await loadHoroscopeData(startDate, endDate);
+    const horoscopeList = await loadHoroscopeData(requestedStartDate, requestedEndDate);
+
     const horoscope = horoscopeList.find(
       (el) =>
         el.horoscopeType === horoscopeType &&
         el.signType === signType &&
-        el.startDate === startDate &&
-        el.endDate === endDate
+        el.startDate === requestedStartDate &&
+        el.endDate === requestedEndDate
     );
 
     if (!horoscope) {
-      next(new HttpError('Not found.', 404));
-    } else {
-      res.json({
-        success: true,
-        message: 'Horoscope retrieved successfully.',
-        data: horoscope,
-      });
+      return next(new HttpError('Not found.', 404));
     }
+
+    res.json({
+      success: true,
+      message: 'Horoscope retrieved successfully.',
+      data: horoscope,
+    });
   } catch (error) {
     next(new HttpError('Internal server Error', 500));
   }
@@ -58,8 +59,8 @@ export const addHoroscope = async (
     const newHoroscope = {
       ...body,
       id: uuidv4(),
-      startDate: body.startDate ? new Date(body.startDate).toISOString() : startDate,
-      endDate: body.endDate ? new Date(body.endDate).toISOString() : endDate,
+      startDate: body.startDate ? formatDate(body.startDate) : startDate,
+      endDate: body.endDate ? formatDate(body.endDate) : endDate,
     } as IHoroscope;
 
     horoscopes.push(newHoroscope);
@@ -84,11 +85,18 @@ export const updateHoroscope = async (
   try {
     const body = req.body as Partial<IHoroscope>;
     const horoscopes = await loadHoroscopeData();
+
+    const existingHoroscope = horoscopes.find((el) => el.id === body.id);
+
+    if (!existingHoroscope) {
+      return next(new HttpError('Horoscope not found.', 404));
+    }
+
     const { startDate, endDate } = getHoroscopeDateRange(body.horoscopeType as HoroscopeType);
     const horoscopeToUpdate = {
       ...body,
-      startDate: body.startDate ? new Date(body.startDate).toISOString() : startDate,
-      endDate: body.endDate ? new Date(body.endDate).toISOString() : endDate,
+      startDate: body.startDate ? formatDate(body.startDate) : startDate,
+      endDate: body.endDate ? formatDate(body.endDate) : endDate,
     } as IHoroscope;
 
     const updatedHoroscopes = horoscopes.map((el) => {

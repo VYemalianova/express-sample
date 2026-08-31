@@ -3,10 +3,16 @@ export interface ISign {
   signType: SignType;
   planet: string;
   traits: string[];
+  description: string;
   fact: string;
-  element: string;
-  startDate: string;
-  endDate: string;
+  element: Element;
+  start: MonthDay;
+  end: MonthDay;
+}
+
+export interface MonthDay {
+  month: number;
+  day: number;
 }
 
 export enum SignType {
@@ -23,3 +29,5 @@ export enum SignType {
   aquarius = 'aquarius',
   pisces = 'pisces',
 }
+
+export type Element = 'Fire' | 'Earth' | 'Air' | 'Water';

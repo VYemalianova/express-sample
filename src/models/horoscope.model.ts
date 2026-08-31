@@ -5,6 +5,9 @@ export enum HoroscopeType {
   weekly = 'weekly',
   monthly = 'monthly',
   yearly = 'yearly',
+  career = 'career',
+  finance = 'finance',
+  health = 'health',
   love = 'love',
 }
 

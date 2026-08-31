@@ -60,122 +60,422 @@
     "description": "If you're together with someone new at the moment, your friends aren't seeing much of you for the next few days. You need serious privacy, but that doesn't mean you need to be alone. In fact, you probably end up nesting with someone in a far-off place or at least making plans for something like that. It's way more fun than going solo, isn't it?"
   },
   {
-    "horoscopeType": "love",
+    "horoscopeType": "weekly",
     "signType": "aries",
     "description": "Don't get mad, well, not too mad, anyway! Someone you love is just about to (once again) push all of your buttons like no one has done in quite a while. Of course, you're a bit confused, so just for the heck of it, before you let them have it, think about whether it may not be exactly what they're doing that's annoying you, but that you're just not in the mood for company."
   },
   {
-    "horoscopeType": "love",
+    "horoscopeType": "weekly",
     "signType": "taurus",
     "description": "As soon as you open your eyes, every move you make is devoted to taking care of business related to your relationship. Your actions may be temporarily distracted by the arrival of someone new and interesting who tries to get to you, but it can't last for too long. Force yourself to focus your attention and make them leave. The probability of a big fight is tricky, especially if you're running late."
   },
   {
-    "horoscopeType": "love",
+    "horoscopeType": "weekly",
     "signType": "gemini",
     "description": "Whether you know it or not, your job is to get reacquainted with a friend or admirer, someone who's been pretty blatant about getting back to you. If you bump into someone you remember from way back or is a friend of a friend, reintroduce yourself (especially if you're single). If you're not looking, you should be able to extricate yourself skillfully from the conversation."
   },
   {
-    "horoscopeType": "love",
+    "horoscopeType": "weekly",
     "signType": "cancer",
     "description": "You're not in the mood to do much work today, but you may feel ashamed and bored if you do nothing at all, so give yourself some task to do. Something physical can keep you busy without requiring much concentration. And speaking of concentration, you may be thinking about your mate's smile more than anything else. Just try to keep busy until you can actually reconnect."
   },
   {
-    "horoscopeType": "love",
+    "horoscopeType": "weekly",
     "signType": "leo",
     "description": "Get your work done early, especially your home chores. If you're involved with someone, or interested in someone platonically or romantically, you shouldn't count on getting much done this afternoon. You're only able to hold out for so long before you start secretly planning how to \"accidentall\" bump into them. When that happens, you're pleasantly surprised to learn that someone else had that in mind as well."
   },
   {
-    "horoscopeType": "love",
+    "horoscopeType": "weekly",
     "signType": "virgo",
     "description": "You love the art of the chat, there's just no arguing about that, but the one thing you love even more is the art of taking action. Now that you can see the opportunity to create positive changes, you're eager to go for it and not just talk about it. If you're acting in concert with a partner and they're yapping more than planning, get the show on the road on your own until they catch up."
   },
   {
-    "horoscopeType": "love",
+    "horoscopeType": "weekly",
     "signType": "libra",
     "description": "It's not the best idea to demand cooperation from everyone today, but it doesn't matter because you're unswerving when you go after what you want. If you're willing to compromise, though (make it early, because as the evening progresses, that's asking a lot) you can make some amazing progress. You may even be able to put an old financial issue to rest once and for all. Do what you do best and settle things gracefully."
   },
   {
-    "horoscopeType": "love",
+    "horoscopeType": "weekly",
     "signType": "scorpio",
     "description": "Your emotional depth is abundantly obvious to others, and to you, as well -- even though you might try to fool yourself that they're still secret. No matter what you feel, you feel it in your bones. If someone asks your opinion, be sure to warn them before you let them have it, literally. While they might not like what they hear, they're at least hearing the truth."
   },
   {
-    "horoscopeType": "love",
+    "horoscopeType": "weekly",
     "signType": "sagittarius",
     "description": "You're in the mood for education, new experiences, or foreign travel, and you may want to go it alone. If you can't take off just yet, you at least need to try to make plans. Browse online to find new possibilities for your next big trip. Be sure you're at least checking out somewhere you've always meant to go. It's a big world, with lots to do, but only so many hours."
   },
   {
-    "horoscopeType": "love",
+    "horoscopeType": "weekly",
     "signType": "capricorn",
     "description": "Your bosses probably seem difficult now, but that may not be exactly so. Weirdly, the one person who seems to be giving you the worst of it is most likely an angel in disguise. Before you just let fly with whatever you feel like saying or doing, take time to think things through. You don't want to alienate someone that influential, right?"
   },
   {
-    "horoscopeType": "love",
+    "horoscopeType": "weekly",
     "signType": "aquarius",
     "description": "You're hoping for a return on your emotional investments right now, particularly when it comes to your relationships. Regardless of who you're invested in, you want to devote everything to them for the time being. You may have begun to appreciate them quite a bit more recently, in any case. Make sure you've got it all covered before you say no to your regular group."
   },
   {
-    "horoscopeType": "love",
+    "horoscopeType": "weekly",
     "signType": "pisces",
     "description": "If you're together with someone new at the moment, your friends aren't seeing much of you for the next few days. You need serious privacy, but that doesn't mean you need to be alone. In fact, you probably end up nesting with someone in a far-off place or at least making plans for something like that. It's way more fun than going solo, isn't it?"
   },
   {
-    "horoscopeType": "weekly",
+    "horoscopeType": "monthly",
+    "signType": "aries",
+    "description": "This month brings fresh momentum and a strong desire to move forward. Your confidence grows as new opportunities appear, but patience will be just as important as action. Focus your energy on the goals that matter most and avoid rushing into decisions simply because you are eager for change. By the end of the month, consistent effort could bring noticeable progress."
+  },
+  {
+    "horoscopeType": "monthly",
+    "signType": "taurus",
+    "description": "Stability and long-term planning take center stage this month. You may find yourself reconsidering your priorities, especially around work, money, and personal commitments. Take your time before making major decisions and trust your practical instincts. Small improvements to your daily routine can have a surprisingly positive impact as the month progresses."
+  },
+  {
+    "horoscopeType": "monthly",
+    "signType": "gemini",
+    "description": "Communication, curiosity, and new connections shape the month ahead. Conversations may open doors you did not expect, so stay receptive to different perspectives and opportunities. Your schedule could become busy, making it important to separate meaningful commitments from distractions. A new idea introduced this month may develop into something valuable later."
+  },
+  {
+    "horoscopeType": "monthly",
+    "signType": "cancer",
+    "description": "This month encourages you to create greater balance between your emotional needs and outside responsibilities. Home, family, or close relationships may require extra attention, but you should also make room for your own goals. Trust your intuition when situations feel uncertain. By setting healthier boundaries, you can finish the month feeling more secure and focused."
+  },
+  {
+    "horoscopeType": "monthly",
+    "signType": "leo",
+    "description": "Your natural confidence is especially noticeable this month, making it a good time to express your ideas and take initiative. Recognition may come when you are willing to show what you can do rather than waiting for others to notice. At the same time, collaboration will produce better results than trying to handle everything alone. Make space for both ambition and enjoyment."
+  },
+  {
+    "horoscopeType": "monthly",
+    "signType": "virgo",
+    "description": "Organization and steady progress are your strongest advantages this month. You may feel motivated to improve routines, complete unfinished tasks, or bring more structure to an important area of your life. Avoid becoming overly focused on small imperfections when the bigger picture is moving in the right direction. Consistency will accomplish more than perfection."
+  },
+  {
+    "horoscopeType": "monthly",
+    "signType": "libra",
+    "description": "Relationships and important choices become a major theme this month. You may need to decide where compromise is worthwhile and where your own priorities should come first. Honest conversations can resolve uncertainty that has been lingering for some time. Keep your natural sense of balance, but remember that maintaining harmony does not mean avoiding necessary decisions."
+  },
+  {
+    "horoscopeType": "monthly",
+    "signType": "scorpio",
+    "description": "A period of reflection and transformation unfolds this month. You may become more aware of habits, relationships, or goals that no longer fit the direction you want to take. Instead of resisting change, use it as an opportunity to simplify and refocus. Your determination is especially powerful now, and a decision made this month could mark the beginning of an important new chapter."
+  },
+  {
+    "horoscopeType": "monthly",
+    "signType": "sagittarius",
+    "description": "Adventure and expansion are highlighted throughout the month. You may feel drawn toward travel, learning, new experiences, or projects that challenge your usual routine. Follow your curiosity, but avoid committing to more than you can realistically manage. One unexpected opportunity could lead you in an exciting direction if you remain flexible and open-minded."
+  },
+  {
+    "horoscopeType": "monthly",
+    "signType": "capricorn",
+    "description": "Your ambitions receive a boost this month, particularly in areas that require discipline and long-term planning. Responsibilities may increase, but so does your ability to manage them effectively. Focus on measurable progress rather than immediate results. Something you have been building gradually may begin to show clear signs that your persistence is paying off."
+  },
+  {
+    "horoscopeType": "monthly",
+    "signType": "aquarius",
+    "description": "Fresh ideas and unexpected possibilities make this an interesting month for you. You may feel ready to change an old routine, experiment with a different approach, or connect with people who inspire you intellectually. Give yourself freedom to explore, but make sure your plans have enough structure to become reality. Innovation works best when followed by consistent action."
+  },
+  {
+    "horoscopeType": "monthly",
+    "signType": "pisces",
+    "description": "Your intuition and creativity are particularly strong this month. You may find yourself thinking more deeply about what you want emotionally and where you want to direct your energy next. Creative projects and meaningful relationships can be especially rewarding. Stay grounded when making practical decisions, and allow inspiration to guide you without losing sight of your responsibilities."
+  },
+  {
+    "horoscopeType": "yearly",
+    "signType": "aries",
+    "description": "This year is about purposeful action and building momentum toward your biggest goals. New opportunities may encourage you to take the lead, but lasting success will come from balancing courage with patience. Career ambitions, personal projects, and relationships can all develop significantly when you avoid impulsive decisions. The progress you make this year could establish a strong foundation for the future."
+  },
+  {
+    "horoscopeType": "yearly",
+    "signType": "taurus",
+    "description": "A year of steady growth and meaningful change lies ahead. You may reconsider what truly provides security and begin investing more energy in goals that offer long-term value. Financial planning, career development, and personal relationships benefit from your patient approach. Be willing to adjust familiar routines when better opportunities appear, and you could end the year feeling more confident about the direction you are taking."
+  },
+  {
+    "horoscopeType": "yearly",
+    "signType": "gemini",
+    "description": "This year brings opportunities for learning, communication, and expanding your network. New people and ideas may influence the direction of your personal and professional life, encouraging you to explore possibilities you had not previously considered. Your curiosity will be one of your greatest strengths, but staying focused will be essential. Choose a few meaningful goals and give them enough attention to develop into lasting achievements."
+  },
+  {
+    "horoscopeType": "yearly",
+    "signType": "cancer",
+    "description": "Emotional growth and greater personal stability become important themes throughout the year. Changes involving home, family, or close relationships may encourage you to reconsider what makes you feel secure and supported. Your intuition can guide you through important decisions, especially when logic alone does not provide a clear answer. By protecting your energy and setting stronger boundaries, you can create a more balanced year."
+  },
+  {
+    "horoscopeType": "yearly",
+    "signType": "leo",
+    "description": "This year encourages you to step forward with confidence and make your ambitions more visible. Opportunities for leadership, creativity, or recognition may emerge when you are willing to demonstrate your abilities. While independence remains important, some of your greatest achievements could come through collaboration. Use your natural enthusiasm to inspire others, but remember that consistency will ultimately matter more than dramatic beginnings."
+  },
+  {
+    "horoscopeType": "yearly",
+    "signType": "virgo",
+    "description": "Progress this year comes through organization, patience, and thoughtful improvement. You may find yourself restructuring routines, developing new skills, or creating more efficient ways to pursue your goals. Your attention to detail will be valuable, but avoid allowing perfectionism to delay important decisions. By concentrating on consistent improvement rather than flawless results, you can accomplish considerably more than you initially expect."
+  },
+  {
+    "horoscopeType": "yearly",
+    "signType": "libra",
+    "description": "Relationships, cooperation, and important personal choices shape much of the year ahead. Some connections may grow stronger, while others could require clearer boundaries or honest conversations. You may also face decisions that challenge you to balance the expectations of others with your own ambitions. Trust your sense of fairness, but do not sacrifice your priorities simply to maintain harmony. Greater balance develops when your needs are included in the equation."
+  },
+  {
+    "horoscopeType": "yearly",
+    "signType": "scorpio",
+    "description": "This year has the potential to be deeply transformative. You may decide to leave behind situations, habits, or ambitions that no longer reflect who you are becoming. Although some changes may initially feel uncomfortable, they can create space for stronger opportunities and more meaningful relationships. Trust your ability to adapt and rebuild. By the end of the year, you may recognize how much your priorities and perspective have evolved."
+  },
+  {
+    "horoscopeType": "yearly",
+    "signType": "sagittarius",
+    "description": "Exploration and expansion define much of your year. Opportunities involving travel, education, career development, or unfamiliar experiences may encourage you to move beyond your usual boundaries. Your optimism can take you far, but successful growth will require planning as well as enthusiasm. Stay open to unexpected directions while keeping your larger goals in mind, and the year could introduce possibilities that influence you for years to come."
+  },
+  {
+    "horoscopeType": "yearly",
+    "signType": "capricorn",
+    "description": "Long-term ambitions become increasingly important this year. Your discipline and persistence can help you make substantial progress in your career, finances, or personal projects, especially when you remain focused on realistic milestones. Responsibilities may increase along the way, but they can also bring greater authority and confidence. Continue building carefully, and achievements that once seemed distant may begin to feel much more attainable."
+  },
+  {
+    "horoscopeType": "yearly",
+    "signType": "aquarius",
+    "description": "Innovation and personal reinvention are strong themes throughout the year. You may become increasingly interested in changing routines, exploring unconventional ideas, or connecting with communities that share your interests. Some unexpected developments could alter plans you previously considered settled. Instead of resisting them, consider what new possibilities they create. Combining your originality with practical follow-through can turn an exciting idea into something substantial."
+  },
+  {
+    "horoscopeType": "yearly",
+    "signType": "pisces",
+    "description": "This year encourages deeper self-understanding and greater trust in your intuition. Creative interests, emotional connections, and personal goals may become clearer as you pay more attention to what genuinely inspires you. At times, you may need to distinguish realistic opportunities from wishful thinking, especially when making major commitments. Keep your imagination alive while maintaining practical boundaries, and you can transform inspiration into meaningful progress."
+  },
+  {
+    "horoscopeType": "career",
+    "signType": "aries",
+    "description": "Your professional ambitions are gaining momentum, and this is a strong period for taking initiative. New responsibilities or leadership opportunities may appear, giving you a chance to demonstrate your confidence and determination. Avoid rushing important decisions simply because you want immediate progress. A strategic approach combined with your natural drive can help you move closer to an important career goal."
+  },
+  {
+    "horoscopeType": "career",
+    "signType": "taurus",
+    "description": "Steady effort is likely to bring meaningful professional progress. You may have an opportunity to strengthen your position, develop a valuable skill, or take on responsibilities that improve your long-term prospects. Avoid becoming too comfortable with familiar routines if a promising opportunity requires change. Your reliability and patience can make a strong impression on colleagues and decision-makers."
+  },
+  {
+    "horoscopeType": "career",
+    "signType": "gemini",
+    "description": "Communication and networking can play an important role in your professional development. Conversations with colleagues, managers, or new contacts may introduce opportunities that you had not previously considered. Your adaptability helps you manage changing priorities, but avoid spreading your attention across too many projects. Concentrating on your strongest ideas will help you turn professional connections into tangible progress."
+  },
+  {
+    "horoscopeType": "career",
+    "signType": "cancer",
+    "description": "Your career may require a careful balance between ambition and emotional well-being. You could find yourself taking on greater responsibility or reconsidering whether your current professional environment supports your long-term goals. Trust your instincts when evaluating new opportunities, but also consider the practical details. Creating stronger boundaries around your time and energy can improve both your productivity and professional confidence."
+  },
+  {
+    "horoscopeType": "career",
+    "signType": "leo",
+    "description": "Your confidence and leadership abilities can attract professional attention. This is a favorable period for presenting ideas, taking responsibility for an important project, or demonstrating skills that have previously gone unnoticed. Recognition is possible, but collaboration will be just as important as individual performance. Encourage others to contribute and your ability to lead could open the door to greater responsibility."
+  },
+  {
+    "horoscopeType": "career",
+    "signType": "virgo",
+    "description": "Your attention to detail and ability to organize complex tasks can become significant professional advantages. You may be asked to solve a difficult problem, improve an inefficient process, or manage responsibilities that require careful planning. Avoid spending too much time perfecting minor details when progress matters more. Consistent, high-quality work can strengthen your reputation and create opportunities for advancement."
+  },
+  {
+    "horoscopeType": "career",
+    "signType": "libra",
+    "description": "Professional relationships and teamwork are especially important now. Your ability to negotiate, communicate diplomatically, and understand different perspectives can help resolve workplace challenges. A partnership or collaborative project may lead to an interesting opportunity, but make sure your own contributions receive appropriate recognition. Maintaining harmony is valuable, but your career goals deserve equal consideration."
+  },
+  {
+    "horoscopeType": "career",
+    "signType": "scorpio",
+    "description": "You may feel ready to make a significant professional change or pursue a more ambitious goal. Your determination gives you the ability to handle complex challenges that others might avoid. Pay attention to developments happening behind the scenes and avoid revealing your plans before they are fully formed. A carefully considered decision could significantly influence the next stage of your career."
+  },
+  {
+    "horoscopeType": "career",
+    "signType": "sagittarius",
+    "description": "Professional growth may come through learning, exploration, or taking on unfamiliar challenges. You could be drawn toward a new role, additional training, international opportunities, or a project that expands your experience. Your enthusiasm is valuable, but avoid making commitments without considering the practical requirements. Combining optimism with preparation can turn an exciting possibility into a meaningful career step."
+  },
+  {
+    "horoscopeType": "career",
+    "signType": "capricorn",
+    "description": "Your disciplined approach to work can produce noticeable results. Long-term projects, leadership responsibilities, or advancement opportunities may demand extra effort, but you are well positioned to handle them. Focus on measurable achievements and make sure the right people understand the value you contribute. Your persistence can strengthen your professional position and bring an important career objective within reach."
+  },
+  {
+    "horoscopeType": "career",
+    "signType": "aquarius",
+    "description": "Fresh ideas can help you stand out professionally. You may see opportunities to improve existing processes, introduce new technology, or approach a familiar problem from an unconventional direction. Not everyone will immediately understand your vision, so communicate your ideas clearly and demonstrate their practical value. Collaboration with innovative colleagues could lead to an unexpected and rewarding professional opportunity."
+  },
+  {
+    "horoscopeType": "career",
+    "signType": "pisces",
+    "description": "Your creativity and intuition can guide you toward meaningful professional opportunities. You may feel increasingly motivated to work on projects that align with your interests rather than simply following routine expectations. Pay attention to promising ideas, but evaluate them carefully before making major career decisions. Combining imagination with practical planning can help you transform an inspiring possibility into sustainable professional growth."
+  },
+  {
+    "horoscopeType": "finance",
+    "signType": "aries",
+    "description": "Your financial situation benefits from a more strategic approach now. You may feel tempted to make a quick purchase or investment, but taking time to evaluate the long-term impact will serve you better. New opportunities to increase your income could appear through work or a personal project. Focus on building stability rather than chasing immediate rewards."
+  },
+  {
+    "horoscopeType": "finance",
+    "signType": "taurus",
+    "description": "Financial stability is especially important to you, and this is a good time to review your budget, savings, and long-term plans. Your practical instincts can help you identify unnecessary expenses and make smarter decisions about your resources. A patient approach to money is likely to produce better results than taking unnecessary risks. Small improvements now can strengthen your financial position over time."
+  },
+  {
+    "horoscopeType": "finance",
+    "signType": "gemini",
+    "description": "New ideas about earning or managing money may capture your attention. You could discover an additional income opportunity, useful financial information, or a different way to organize your expenses. Before acting, make sure you understand the details and avoid making decisions based only on enthusiasm. Careful research can help you distinguish a genuinely valuable opportunity from a temporary distraction."
+  },
+  {
+    "horoscopeType": "finance",
+    "signType": "cancer",
+    "description": "Creating greater financial security becomes a priority. You may want to strengthen your savings, reduce unnecessary spending, or prepare for an upcoming household or family expense. Emotional purchases could be particularly tempting, so give yourself time before spending on things you do not truly need. A clear financial plan can give you greater confidence and peace of mind."
+  },
+  {
+    "horoscopeType": "finance",
+    "signType": "leo",
+    "description": "Your confidence may encourage you to think bigger about money and future opportunities. There could be potential to increase your income or receive recognition that eventually improves your financial position. At the same time, be careful about spending simply to maintain appearances or reward yourself. Directing more of your resources toward meaningful goals can bring greater satisfaction than short-term luxuries."
+  },
+  {
+    "horoscopeType": "finance",
+    "signType": "virgo",
+    "description": "Your analytical nature can help you bring greater order to your finances. Reviewing expenses, subscriptions, savings goals, or outstanding obligations may reveal several opportunities for improvement. Even small adjustments can accumulate into meaningful savings. Avoid worrying excessively about every financial detail, and instead create a realistic system that allows you to track progress consistently."
+  },
+  {
+    "horoscopeType": "finance",
+    "signType": "libra",
+    "description": "Finding balance between enjoying your money and protecting your financial future is important now. Shared expenses, financial agreements, or purchases involving another person may require careful discussion. Make sure expectations are clear before committing your resources. A thoughtful compromise can work well, but avoid agreeing to financial arrangements that place unnecessary pressure on your own budget."
+  },
+  {
+    "horoscopeType": "finance",
+    "signType": "scorpio",
+    "description": "This is a useful period for taking a deeper look at your financial strategy. You may want to address debt, savings, investments, or another issue that has been easy to postpone. Your determination can help you make significant progress once you establish a clear goal. Avoid unnecessary financial risks and concentrate on decisions that increase your control and long-term security."
+  },
+  {
+    "horoscopeType": "finance",
+    "signType": "sagittarius",
+    "description": "Your optimism may encourage you to spend on travel, education, experiences, or new opportunities. These expenses can be worthwhile, but make sure enthusiasm does not cause you to overlook your financial limits. Planning ahead will allow you to enjoy greater freedom without creating unnecessary pressure later. An opportunity to expand your income could also emerge if you remain open to new possibilities."
+  },
+  {
+    "horoscopeType": "finance",
+    "signType": "capricorn",
+    "description": "Long-term financial planning is strongly favored. Your disciplined approach makes this a good time to review savings goals, major purchases, or strategies for increasing your income. Progress may seem gradual, but consistent decisions can produce significant results over time. Avoid comparing your financial situation with others and concentrate instead on building the level of security that supports your own ambitions."
+  },
+  {
+    "horoscopeType": "finance",
+    "signType": "aquarius",
+    "description": "An unconventional idea could influence the way you think about earning or managing money. Technology, freelance work, a side project, or a new professional connection may introduce an interesting financial opportunity. Innovation can be valuable, but avoid committing money before understanding the risks involved. Combining creativity with careful planning will give your ideas a stronger chance of producing sustainable results."
+  },
+  {
+    "horoscopeType": "finance",
+    "signType": "pisces",
+    "description": "Financial decisions require a balance between intuition and practical thinking. You may feel inspired by a purchase, project, or opportunity, but take time to examine the numbers before committing. Creating a clearer budget can help you understand where your money is going and reduce uncertainty. When your financial choices support your real priorities, managing money can begin to feel much less stressful."
+  },
+  {
+    "horoscopeType": "health",
+    "signType": "aries",
+    "description": "Your energy may be strong, but maintaining balance is important. You could feel motivated to push yourself harder than usual, especially with exercise or a busy schedule. Remember that recovery is part of staying productive. Regular movement, enough rest, and a consistent routine can help you make the most of your natural drive without exhausting yourself."
+  },
+  {
+    "horoscopeType": "health",
+    "signType": "taurus",
+    "description": "Consistency is your greatest advantage when it comes to well-being. Rather than making dramatic changes, focus on sustainable habits involving movement, nutrition, sleep, and relaxation. Your body may respond especially well to a predictable routine. Pay attention to signs that you need more rest, and give yourself permission to slow down when your energy begins to decline."
+  },
+  {
+    "horoscopeType": "health",
+    "signType": "gemini",
+    "description": "A busy mind can make it difficult to fully relax, so finding ways to create mental space may improve your overall well-being. Regular movement, time away from screens, and a more consistent sleep schedule could help restore your energy. Avoid filling every free moment with activity. Giving yourself occasional periods of quiet can help you feel more focused and refreshed."
+  },
+  {
+    "horoscopeType": "health",
+    "signType": "cancer",
+    "description": "Your emotional state can strongly influence how energetic you feel, making self-care particularly important. A comfortable routine, enough sleep, and time spent in a supportive environment can help you recharge. Avoid taking on everyone else's concerns while ignoring your own needs. Creating healthier boundaries and allowing yourself genuine downtime can improve your overall sense of balance."
+  },
+  {
+    "horoscopeType": "health",
+    "signType": "leo",
+    "description": "You may have plenty of energy and motivation, making this a good time to become more active or return to a wellness routine you enjoy. The key is consistency rather than intensity. Avoid pushing yourself simply to prove what you can accomplish. Activities that are both enjoyable and physically engaging can help you maintain motivation while giving your body the recovery time it needs."
+  },
+  {
+    "horoscopeType": "health",
+    "signType": "virgo",
+    "description": "You may feel motivated to improve your daily habits and create a healthier routine. Your attention to detail can help you identify small changes that make your schedule more balanced, but avoid becoming overly strict with yourself. Sustainable habits are more valuable than perfect ones. Prioritize regular meals, movement, adequate sleep, and enough flexibility to enjoy your routine."
+  },
+  {
+    "horoscopeType": "health",
+    "signType": "libra",
+    "description": "Balance is especially important for your well-being. A demanding schedule may need to be matched with more intentional periods of rest and recovery. Activities that combine movement with relaxation could be particularly enjoyable. Pay attention to whether you are sacrificing your own routine to accommodate others, and make sure your health remains a consistent priority."
+  },
+  {
+    "horoscopeType": "health",
+    "signType": "scorpio",
+    "description": "Your determination can help you make meaningful improvements to your wellness routine. If there is a habit you have wanted to change, this may be a good time to approach it with greater consistency. Avoid extreme solutions or expecting immediate results. Gradual improvements in sleep, movement, nutrition, and stress management are more likely to create lasting benefits."
+  },
+  {
+    "horoscopeType": "health",
+    "signType": "sagittarius",
+    "description": "Staying active can help you maintain both physical energy and a positive mindset. Outdoor activities, sports, walking, or simply changing your usual environment may feel especially refreshing. Your enthusiasm can sometimes lead you to overdo things, so remember to include enough recovery time. A varied but realistic routine can keep you motivated without becoming restrictive."
+  },
+  {
+    "horoscopeType": "health",
+    "signType": "capricorn",
+    "description": "Your disciplined nature makes it easier to establish a consistent wellness routine, but responsibilities may sometimes cause you to postpone rest. Treat recovery with the same importance you give to productivity. Regular movement, sufficient sleep, and breaks from work can help maintain your energy. Sustainable progress comes from taking care of yourself consistently rather than waiting until you feel exhausted."
+  },
+  {
+    "horoscopeType": "health",
+    "signType": "aquarius",
+    "description": "You may benefit from refreshing your usual approach to wellness. Trying a different activity, changing your routine, or using technology to track healthy habits could renew your motivation. Just avoid changing too many things at once. Choose habits that fit naturally into your lifestyle and focus on consistency, giving both your mind and body enough opportunities to recharge."
+  },
+  {
+    "horoscopeType": "health",
+    "signType": "pisces",
+    "description": "Rest and emotional balance are particularly important for maintaining your energy. You may benefit from quieter activities that help you disconnect from daily demands, such as walking, stretching, meditation, or creative hobbies. Be mindful of inconsistent sleep or routines when life becomes busy. Giving yourself regular opportunities to slow down can help you feel more grounded and restored."
+  },
+  {
+    "horoscopeType": "love",
     "signType": "aries",
     "description": "Don't get mad, well, not too mad, anyway! Someone you love is just about to (once again) push all of your buttons like no one has done in quite a while. Of course, you're a bit confused, so just for the heck of it, before you let them have it, think about whether it may not be exactly what they're doing that's annoying you, but that you're just not in the mood for company."
   },
   {
-    "horoscopeType": "weekly",
+    "horoscopeType": "love",
     "signType": "taurus",
     "description": "As soon as you open your eyes, every move you make is devoted to taking care of business related to your relationship. Your actions may be temporarily distracted by the arrival of someone new and interesting who tries to get to you, but it can't last for too long. Force yourself to focus your attention and make them leave. The probability of a big fight is tricky, especially if you're running late."
   },
   {
-    "horoscopeType": "weekly",
+    "horoscopeType": "love",
     "signType": "gemini",
     "description": "Whether you know it or not, your job is to get reacquainted with a friend or admirer, someone who's been pretty blatant about getting back to you. If you bump into someone you remember from way back or is a friend of a friend, reintroduce yourself (especially if you're single). If you're not looking, you should be able to extricate yourself skillfully from the conversation."
   },
   {
-    "horoscopeType": "weekly",
+    "horoscopeType": "love",
     "signType": "cancer",
     "description": "You're not in the mood to do much work today, but you may feel ashamed and bored if you do nothing at all, so give yourself some task to do. Something physical can keep you busy without requiring much concentration. And speaking of concentration, you may be thinking about your mate's smile more than anything else. Just try to keep busy until you can actually reconnect."
   },
   {
-    "horoscopeType": "weekly",
+    "horoscopeType": "love",
     "signType": "leo",
     "description": "Get your work done early, especially your home chores. If you're involved with someone, or interested in someone platonically or romantically, you shouldn't count on getting much done this afternoon. You're only able to hold out for so long before you start secretly planning how to \"accidentall\" bump into them. When that happens, you're pleasantly surprised to learn that someone else had that in mind as well."
   },
   {
-    "horoscopeType": "weekly",
+    "horoscopeType": "love",
     "signType": "virgo",
     "description": "You love the art of the chat, there's just no arguing about that, but the one thing you love even more is the art of taking action. Now that you can see the opportunity to create positive changes, you're eager to go for it and not just talk about it. If you're acting in concert with a partner and they're yapping more than planning, get the show on the road on your own until they catch up."
   },
   {
-    "horoscopeType": "weekly",
+    "horoscopeType": "love",
     "signType": "libra",
     "description": "It's not the best idea to demand cooperation from everyone today, but it doesn't matter because you're unswerving when you go after what you want. If you're willing to compromise, though (make it early, because as the evening progresses, that's asking a lot) you can make some amazing progress. You may even be able to put an old financial issue to rest once and for all. Do what you do best and settle things gracefully."
   },
   {
-    "horoscopeType": "weekly",
+    "horoscopeType": "love",
     "signType": "scorpio",
     "description": "Your emotional depth is abundantly obvious to others, and to you, as well -- even though you might try to fool yourself that they're still secret. No matter what you feel, you feel it in your bones. If someone asks your opinion, be sure to warn them before you let them have it, literally. While they might not like what they hear, they're at least hearing the truth."
   },
   {
-    "horoscopeType": "weekly",
+    "horoscopeType": "love",
     "signType": "sagittarius",
     "description": "You're in the mood for education, new experiences, or foreign travel, and you may want to go it alone. If you can't take off just yet, you at least need to try to make plans. Browse online to find new possibilities for your next big trip. Be sure you're at least checking out somewhere you've always meant to go. It's a big world, with lots to do, but only so many hours."
   },
   {
-    "horoscopeType": "weekly",
+    "horoscopeType": "love",
     "signType": "capricorn",
     "description": "Your bosses probably seem difficult now, but that may not be exactly so. Weirdly, the one person who seems to be giving you the worst of it is most likely an angel in disguise. Before you just let fly with whatever you feel like saying or doing, take time to think things through. You don't want to alienate someone that influential, right?"
   },
   {
-    "horoscopeType": "weekly",
+    "horoscopeType": "love",
     "signType": "aquarius",
     "description": "You're hoping for a return on your emotional investments right now, particularly when it comes to your relationships. Regardless of who you're invested in, you want to devote everything to them for the time being. You may have begun to appreciate them quite a bit more recently, in any case. Make sure you've got it all covered before you say no to your regular group."
   },
   {
-    "horoscopeType": "weekly",
+    "horoscopeType": "love",
     "signType": "pisces",
     "description": "If you're together with someone new at the moment, your friends aren't seeing much of you for the next few days. You need serious privacy, but that doesn't mean you need to be alone. In fact, you probably end up nesting with someone in a far-off place or at least making plans for something like that. It's way more fun than going solo, isn't it?"
   }

@@ -3,8 +3,9 @@
     "signType": "aries",
     "element": "Fire",
     "planet": "Mars",
-    "traits": ["energetic", "bold", "impulsive", "natural", "leader"],
-    "fact": "Aries is the first sign of the zodiac, symbolizing new beginnings and action",
+    "traits": ["energetic", "bold", "impulsive", "natural leader"],
+    "description": "Aries is energetic, courageous, and driven by action. People born under this sign often enjoy challenges, taking initiative, and exploring new opportunities. Their confidence and competitive spirit can make them natural leaders, although their desire to move quickly may sometimes lead to impatience or impulsive decisions.",
+    "fact": "Aries is the first sign of the zodiac, symbolizing new beginnings, initiative, and action. Ruled by Mars, the planet traditionally associated with energy and courage, Aries is often connected with a strong desire to move forward, compete, and turn ideas into action.",
     "start": { "month": 3, "day": 21 },
     "end": { "month": 4, "day": 19 }
   },
@@ -13,7 +14,8 @@
     "element": "Earth",
     "planet": "Venus",
     "traits": ["loyal", "practical", "patient", "stubborn"],
-    "fact": "taurus loves comfort, food, and luxury—many are known to be true 'homebodies.'",
+    "description": "Taurus is grounded, dependable, and strongly connected to stability and comfort. People born under this sign often appreciate consistency, beautiful surroundings, and the simple pleasures of life. They tend to be patient and persistent, but their determination can sometimes make them resistant to change.",
+    "fact": "Taurus is ruled by Venus, the planet traditionally associated with beauty, pleasure, and affection. This connection is often reflected in Taurus's appreciation for good food, comfortable spaces, nature, art, and luxury. Once Taurus finds something they value, they are often deeply committed to preserving it.",
     "start": { "month": 4, "day": 20 },
     "end": { "month": 5, "day": 20 }
   },
@@ -22,7 +24,8 @@
     "element": "Air",
     "planet": "Mercury",
     "traits": ["talkative", "curious", "witty", "adaptable"],
-    "fact": "Geminis are known as the “twins” because of their dual nature—they can show very different sides.",
+    "description": "Gemini is curious, social, and constantly interested in discovering something new. People born under this sign often enjoy conversation, learning, exchanging ideas, and meeting different kinds of people. Their adaptable nature helps them handle change easily, although they may sometimes struggle to stay focused on one thing for long.",
+    "fact": "Gemini is represented by the Twins, symbolizing duality, versatility, and the ability to see situations from different perspectives. Ruled by Mercury, the planet traditionally associated with communication and intellect, Gemini is often linked with quick thinking, storytelling, curiosity, and a love of information.",
     "start": { "month": 5, "day": 21 },
     "end": { "month": 6, "day": 20 }
   },
@@ -31,7 +34,8 @@
     "element": "Water",
     "planet": "Moon",
     "traits": ["nurturing", "emotional", "protective", "intuitive"],
-    "fact": "Cancers are often called the “mothers” of the zodiac due to their deeply caring nature.",
+    "description": "Cancer is sensitive, caring, and deeply connected to emotions, family, and a sense of belonging. People born under this sign often have strong intuition and are highly aware of the feelings of those around them. They can be incredibly supportive and protective, although they may become withdrawn when they feel hurt or insecure.",
+    "fact": "Cancer is ruled by the Moon, which astrology traditionally connects with emotions, instincts, memory, and home life. Because of their nurturing and protective qualities, Cancers are often described as the caregivers of the zodiac and may place great importance on creating a safe and comfortable home.",
     "start": { "month": 6, "day": 21 },
     "end": { "month": 7, "day": 22 }
   },
@@ -39,8 +43,9 @@
     "signType": "leo",
     "element": "Fire",
     "planet": "Sun",
-    "traits": ["confident", "creative", "charismatic", "sometimes", "dramatic"],
-    "fact": "Leos love being in the spotlight—many actors and performers are Leos.",
+    "traits": ["confident", "creative", "charismatic", "dramatic"],
+    "description": "Leo is confident, expressive, and naturally drawn to creativity and self-expression. People born under this sign often enjoy inspiring others and bringing warmth and enthusiasm into social situations. They are usually generous and loyal, but their strong personalities can sometimes make them crave attention or recognition.",
+    "fact": "Leo is ruled by the Sun, which traditionally represents identity, vitality, and self-expression in astrology. This connection contributes to Leo's reputation for confidence, creativity, and charisma. Their love of performance and recognition means Leos are often associated with entertainment, leadership, and other highly visible roles.",
     "start": { "month": 7, "day": 23 },
     "end": { "month": 8, "day": 22 }
   },
@@ -49,7 +54,8 @@
     "element": "Earth",
     "planet": "Mercury",
     "traits": ["detail-oriented", "analytical", "modest", "perfectionist"],
-    "fact": "Virgos are often known for their organization and problem-solving skills.",
+    "description": "Virgo is practical, thoughtful, and highly attentive to details. People born under this sign often enjoy organizing information, solving problems, and finding ways to improve the world around them. Their analytical nature makes them dependable and observant, although their high standards can sometimes turn into perfectionism or excessive self-criticism.",
+    "fact": "Virgo is ruled by Mercury, but unlike Gemini's communication-focused expression of Mercury, Virgo is traditionally associated with analysis, organization, and practical thinking. Virgos are often skilled at noticing small details others overlook and turning complicated problems into manageable solutions.",
     "start": { "month": 8, "day": 23 },
     "end": { "month": 9, "day": 22 }
   },
@@ -58,7 +64,8 @@
     "element": "Air",
     "planet": "Venus",
     "traits": ["diplomatic", "charming", "balanced", "indecisive"],
-    "fact": "Libras value harmony in all things—especially relationships and aesthetics.",
+    "description": "Libra is diplomatic, sociable, and strongly motivated by harmony and fairness. People born under this sign often have a natural ability to understand different perspectives and bring people together. They tend to appreciate beauty, relationships, and peaceful environments, although considering every side of a situation can sometimes make decisions difficult.",
+    "fact": "Libra is represented by the Scales and is the only zodiac sign traditionally symbolized by an inanimate object. The Scales represent balance, fairness, and equality. Ruled by Venus, Libra is also associated with beauty, romance, art, cooperation, and the desire to create harmony in relationships.",
     "start": { "month": 9, "day": 23 },
     "end": { "month": 10, "day": 22 }
   },
@@ -67,7 +74,8 @@
     "element": "Water",
     "planet": "Pluto (and Mars)",
     "traits": ["intense", "passionate", "secretive", "determined"],
-    "fact": "Scorpios are often considered the most mysterious and emotionally deep sign.",
+    "description": "Scorpio is intense, determined, and emotionally perceptive. People born under this sign often approach relationships and personal goals with great depth and commitment. They value trust and authenticity and may prefer meaningful connections over superficial ones. Their private nature can make them seem mysterious, while their determination helps them overcome difficult situations.",
+    "fact": "Scorpio is traditionally ruled by Mars and, in modern astrology, is also associated with Pluto. These planets connect Scorpio with themes of passion, determination, transformation, and resilience. Scorpio is often considered one of the most emotionally intense signs and is associated with the ability to rebuild after major changes.",
     "start": { "month": 10, "day": 23 },
     "end": { "month": 11, "day": 21 }
   },
@@ -76,7 +84,8 @@
     "element": "Fire",
     "planet": "Jupiter",
     "traits": ["adventurous", "optimistic", "blunt", "philosophical"],
-    "fact": "Sagittarians crave freedom and are natural-born travelers and truth seekers.",
+    "description": "Sagittarius is adventurous, optimistic, and motivated by exploration and discovery. People born under this sign often enjoy traveling, learning, and experiencing different cultures and ideas. They value independence and honesty and tend to approach life with enthusiasm, although their direct communication style can sometimes come across as blunt.",
+    "fact": "Sagittarius is ruled by Jupiter, traditionally associated with expansion, knowledge, optimism, and good fortune. This connection helps explain Sagittarius's reputation as the traveler and philosopher of the zodiac. They are often motivated by a desire to understand the bigger picture and discover what lies beyond familiar boundaries.",
     "start": { "month": 11, "day": 22 },
     "end": { "month": 12, "day": 21 }
   },
@@ -85,7 +94,8 @@
     "element": "Earth",
     "planet": "Saturn",
     "traits": ["disciplined", "responsible", "ambitious", "serious"],
-    "fact": "Capricorns are goal-oriented and often seen as “old souls” even when young.",
+    "description": "Capricorn is ambitious, disciplined, and focused on long-term achievement. People born under this sign often approach their goals patiently and strategically, preferring steady progress over quick results. They tend to value responsibility, structure, and reliability, although their serious approach to life can sometimes make them seem reserved.",
+    "fact": "Capricorn is ruled by Saturn, the planet traditionally associated with discipline, responsibility, structure, and time. This connection contributes to Capricorn's reputation for patience and long-term planning. Capricorns are sometimes described as 'old souls' because they may show a mature and responsible attitude from an early age.",
     "start": { "month": 12, "day": 22 },
     "end": { "month": 1, "day": 19 }
   },
@@ -94,7 +104,8 @@
     "element": "Air",
     "planet": "Uranus",
     "traits": ["independent", "innovative", "quirky", "humanitarian"],
-    "fact": "Aquarians are known for being ahead of their time—many are drawn to technology and social causes.",
+    "description": "Aquarius is independent, inventive, and interested in ideas that challenge conventional thinking. People born under this sign often value individuality and intellectual freedom and may enjoy exploring technology, science, culture, or social change. They can be highly sociable while still needing plenty of personal space and independence.",
+    "fact": "Aquarius is traditionally ruled by Saturn and, in modern astrology, is also associated with Uranus, the planet linked with innovation, change, and unconventional thinking. Aquarians are often described as forward-thinking and may be attracted to technology, new ideas, communities, and causes focused on improving society.",
     "start": { "month": 1, "day": 20 },
     "end": { "month": 2, "day": 18 }
   },
@@ -103,7 +114,8 @@
     "element": "Water",
     "planet": "Neptune",
     "traits": ["compassionate", "dreamy", "artistic", "empathetic"],
-    "fact": "Pisces are often very creative and emotionally intuitive—many are artists or healers.",
+    "description": "Pisces is compassionate, imaginative, and deeply sensitive to emotions and atmosphere. People born under this sign often have rich inner worlds and a natural ability to understand how others are feeling. Their creativity and empathy may draw them toward art, music, storytelling, or helping others, although their sensitivity can sometimes make them feel overwhelmed.",
+    "fact": "Pisces is ruled by Neptune in modern astrology, a planet traditionally associated with imagination, dreams, intuition, and spirituality. As the final sign of the zodiac, Pisces is sometimes seen as combining lessons and qualities from the signs that come before it, contributing to its reputation for empathy, creativity, and emotional depth.",
     "start": { "month": 2, "day": 19 },
     "end": { "month": 3, "day": 20 }
   }
