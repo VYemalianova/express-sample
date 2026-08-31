@@ -18,6 +18,9 @@ import {
 } from '../helpers/validators.helper';
 import { validationErrorsHandler } from '../middlewares/validation-errors-handler';
 import { authenticateHoroscopeAccess } from '../middlewares/auth-horoscope-access';
+import { authenticateJWT } from '../middlewares/auth-jwt';
+import { requireRole } from '../middlewares/require-role';
+import { RoleType } from '../models/user.model';
 
 const router = Router();
 
@@ -46,14 +49,25 @@ router.post(
   '',
   [...baseValidation(body), notEmptyField(body, 'description')],
   validationErrorsHandler,
+  authenticateJWT,
+  requireRole(RoleType.admin),
   addHoroscope
 );
 router.put(
   '',
   [...baseValidation(body), notEmptyField(body, 'description'), validateId(body, 'id')],
   validationErrorsHandler,
+  authenticateJWT,
+  requireRole(RoleType.admin),
   updateHoroscope
 );
-router.delete('/:id', [validateId(param, 'id')], validationErrorsHandler, deleteHoroscope);
+router.delete(
+  '/:id',
+  [validateId(param, 'id')],
+  validationErrorsHandler,
+  authenticateJWT,
+  requireRole(RoleType.admin),
+  deleteHoroscope
+);
 
 export default router;
