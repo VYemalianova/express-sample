@@ -3,6 +3,7 @@ import { body, param } from 'express-validator';
 
 import { validateId } from '../helpers/validators.helper';
 import { validationErrorsHandler } from '../middlewares/validation-errors-handler';
+import { authenticateJWT } from '../middlewares/auth-jwt';
 import { deleteUser, login, register } from '../controllers/auth.controller';
 
 const router = Router();
@@ -29,6 +30,12 @@ const validatePassword = [
 router.post('/signup', [...validateEmail, ...validatePassword], validationErrorsHandler, register);
 router.post('/signin', [...validateEmail, ...validatePassword], validationErrorsHandler, login);
 
-router.delete(':id', [validateId(param, 'id')], validationErrorsHandler, deleteUser);
+router.delete(
+  '/:id',
+  authenticateJWT,
+  [validateId(param, 'id')],
+  validationErrorsHandler,
+  deleteUser
+);
 
 export default router;

@@ -1,7 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import { v4 as uuidv4 } from 'uuid';
 import bcrypt from 'bcrypt';
-import jwt from 'jsonwebtoken';
 
 import { HttpError } from '../models/http-error';
 import { writeJSONData } from '../helpers/file.helper';
@@ -29,11 +28,11 @@ export const register = async (
       id: uuidv4(),
       email: body.email,
       password: hashedPassword,
-      role: RoleType.user,
+      role: body.role ?? RoleType.user,
     } as IUser;
     users.push(newUser);
 
-    await writeJSONData<IUser[]>('horoscopes', users);
+    await writeJSONData<IUser[]>('users', users);
 
     const token = generateToken({ id: newUser.id, email: newUser.email });
     const { password, ...user } = newUser;
@@ -60,7 +59,7 @@ export const login = async (
 
     const isPasswordValid = await bcrypt.compare(body.password!, existingUser.password);
 
-    if (isPasswordValid) {
+    if (!isPasswordValid) {
       return next(new HttpError('Invalid password.', 401));
     }
 
@@ -80,6 +79,12 @@ export const deleteUser = async (
 ) => {
   try {
     const { id } = req.params;
+    const user = (req as any).user;
+
+    if (user.id !== id && user.role !== 'admin') {
+      return next(new HttpError('You can only delete your own account.', 403));
+    }
+
     const users = await loadUsers();
     const updatedUsersList = users.filter((user) => user.id !== id);
 

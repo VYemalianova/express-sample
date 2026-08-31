@@ -1,7 +1,8 @@
 [
-  {
+    {
+    "id": "ade6b218-94e5-4247-864e-5c524879a2d3",
     "email": "astroyod_admin@mail.com",
-    "password": "$2b$12$bCLRWJcfY.M/Iov9bWuiXOwhHjZoJoJO28wikLAN7IvBAYP0cTiUa",
+    "password": "$2b$12$80znAuB2yzvdpOOzC5sTeuZPDqGVNbzr0LRrQagfFZ/eaTN7kAZve",
     "role": "admin"
   }
 ]
