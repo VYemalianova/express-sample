@@ -20,7 +20,7 @@ export const register = async (
     const existingUser = users.find((user) => user.email === body.email);
 
     if (existingUser) {
-      return next(new HttpError('User with this email already exists.', 409));
+      return next(new HttpError(409, 'User with this email already exists.'));
     }
 
     const hashedPassword = await bcrypt.hash(body.password!, 12);
@@ -39,7 +39,7 @@ export const register = async (
 
     res.status(201).json({ success: true, message: '', data: { token, user } });
   } catch (error) {
-    next(new HttpError('Something went wrong during signup.', 500));
+    next(new HttpError(500, 'Something went wrong during signup.'));
   }
 };
 
@@ -54,13 +54,13 @@ export const login = async (
     const existingUser = users.find((user) => user.email === body.email);
 
     if (!existingUser) {
-      return next(new HttpError('User does not exists.', 401));
+      return next(new HttpError(401, 'User does not exists.'));
     }
 
     const isPasswordValid = await bcrypt.compare(body.password!, existingUser.password);
 
     if (!isPasswordValid) {
-      return next(new HttpError('Invalid password.', 401));
+      return next(new HttpError(401, 'Invalid password.'));
     }
 
     const token = generateToken({ id: existingUser.id, email: existingUser.email });
@@ -68,7 +68,7 @@ export const login = async (
 
     res.json({ success: true, message: '', data: { token, user } });
   } catch {
-    next(new HttpError('Something went wrong during login.', 500));
+    next(new HttpError(500, 'Something went wrong during login.'));
   }
 };
 
@@ -82,7 +82,7 @@ export const deleteUser = async (
     const user = (req as any).user;
 
     if (user.id !== id && user.role !== 'admin') {
-      return next(new HttpError('You can only delete your own account.', 403));
+      return next(new HttpError(403, 'You can only delete your own account.'));
     }
 
     const users = await loadUsers();
@@ -92,6 +92,6 @@ export const deleteUser = async (
 
     res.status(204).json({ success: true, message: 'User deleted successfully.', data: 1 });
   } catch {
-    next(new HttpError('Failed to delete user.', 500));
+    next(new HttpError(500, 'Failed to delete user.'));
   }
 };

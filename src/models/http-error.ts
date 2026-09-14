@@ -1,16 +1,14 @@
-import { ValidationError } from 'express-validator';
-import { IFieldError } from './response';
+import { IFieldValidationError } from './response';
 
 export class HttpError extends Error {
-  errorCode: number;
-  errors: string | IFieldError[];
+  statusCode: number;
+  errors: string | IFieldValidationError[];
 
-  constructor(errors: string | IFieldError[], errorCode: number) {
+  constructor(statusCode: number, errors: string | IFieldValidationError[]) {
     super();
 
-    this.errorCode = errorCode;
+    this.name = 'HttpError';
+    this.statusCode = statusCode;
     this.errors = errors;
-
-    Object.setPrototypeOf(this, HttpError.prototype);
   }
 }

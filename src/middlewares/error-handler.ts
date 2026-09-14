@@ -8,7 +8,7 @@ export const errorHandler = (
   res: Response,
   next: NextFunction
 ) => {
-  const statusCode = err instanceof HttpError ? err.errorCode : 500;
+  const statusCode = err instanceof HttpError ? err.statusCode : 500;
 
   res.status(statusCode).json({
     success: false,

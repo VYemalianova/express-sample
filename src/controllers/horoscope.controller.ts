@@ -34,7 +34,7 @@ export const getHoroscope = async (
     );
 
     if (!horoscope) {
-      return next(new HttpError('Not found.', 404));
+      return next(new HttpError(404, 'Not found.'));
     }
 
     res.json({
@@ -43,7 +43,7 @@ export const getHoroscope = async (
       data: horoscope,
     });
   } catch (error) {
-    next(new HttpError('Internal server Error', 500));
+    next(new HttpError(500, 'Internal server Error'));
   }
 };
 
@@ -73,7 +73,7 @@ export const addHoroscope = async (
       data: newHoroscope,
     });
   } catch {
-    next(new HttpError('Failed to add horoscope.', 500));
+    next(new HttpError(500, 'Failed to add horoscope.'));
   }
 };
 
@@ -89,7 +89,7 @@ export const updateHoroscope = async (
     const existingHoroscope = horoscopes.find((el) => el.id === body.id);
 
     if (!existingHoroscope) {
-      return next(new HttpError('Horoscope not found.', 404));
+      return next(new HttpError(404, 'Horoscope not found.'));
     }
 
     const { startDate, endDate } = getHoroscopeDateRange(body.horoscopeType as HoroscopeType);
@@ -115,7 +115,7 @@ export const updateHoroscope = async (
       data: horoscopeToUpdate,
     });
   } catch {
-    next(new HttpError('Failed to update horoscope.', 500));
+    next(new HttpError(500, 'Failed to update horoscope.'));
   }
 };
 
@@ -133,6 +133,6 @@ export const deleteHoroscope = async (
 
     res.status(204).json({ success: true, message: 'Horoscope deleted successfully.', data: 1 });
   } catch {
-    next(new HttpError('Failed to delete horoscope.', 500));
+    next(new HttpError(500, 'Failed to delete horoscope.'));
   }
 };

@@ -1,5 +1,3 @@
-import { FieldValidationError, ValidationError } from 'express-validator';
-
 export interface IResponse<T> {
   success: boolean;
   message: string;
@@ -8,10 +6,10 @@ export interface IResponse<T> {
 
 export interface IErrorResponse {
   success: boolean;
-  errors?: string | IFieldError[];
+  errors?: string | IFieldValidationError[];
 }
 
-export interface IFieldError {
+export interface IFieldValidationError {
   path: string;
   msg: string;
 }

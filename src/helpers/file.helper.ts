@@ -10,7 +10,7 @@ export const readJSONData = async <T>(fileName: string): Promise<T> => {
 
     return JSON.parse(data) as T;
   } catch {
-    throw new HttpError('Failed to read the file. It may not exist or is not accessible.', 500);
+    throw new HttpError(500, 'Failed to read the file. It may not exist or is not accessible.');
   }
 };
 
@@ -20,6 +20,6 @@ export const writeJSONData = async <T>(fileName: string, data: T) => {
   try {
     await fs.writeFile(filePath, JSON.stringify(data), 'utf8');
   } catch {
-    throw new HttpError('Failed to write file.', 500);
+    throw new HttpError(500, 'Failed to write file.');
   }
 };

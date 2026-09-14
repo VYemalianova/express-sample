@@ -14,7 +14,7 @@ export const getSigns = async (
     const signsList = await loadSignsData();
 
     if (!signsList) {
-      next(new HttpError('Not found.', 404));
+      next(new HttpError(404, 'Not found.'));
     } else {
       res.json({
         success: true,
@@ -23,7 +23,7 @@ export const getSigns = async (
       });
     }
   } catch (error) {
-    next(new HttpError('Internal server Error', 500));
+    next(new HttpError(500, 'Internal server Error'));
   }
 };
 
@@ -38,7 +38,7 @@ export const getSignByType = async (
     const sign = signsList.find((sign) => sign.signType === signType);
 
     if (!sign) {
-      next(new HttpError('Not found.', 404));
+      next(new HttpError(404, 'Not found.'));
     } else {
       res.json({
         success: true,
@@ -47,6 +47,6 @@ export const getSignByType = async (
       });
     }
   } catch (error) {
-    next(new HttpError('Internal server Error', 500));
+    next(new HttpError(500, 'Internal server Error'));
   }
 };
